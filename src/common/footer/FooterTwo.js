@@ -13,7 +13,7 @@ const FooterTwo = () => {
                                     <div className="footer__widget footer-col-1">
                                         <div className="footer-widget__column footer-widget__about">
                                             <div className="footer-widget__about-logo">
-                                                <Link href="/"><img src="/assets/img/logo/logo-white.png" alt="Logo" /></Link>
+                                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
                                             </div>
                                             <p className="footer-widget__about-text">Morbi pharetra, eros sed euismod pellentesque, nulla risus lobortis purus, quis maximus.</p>
                                         </div>

@@ -20,7 +20,7 @@ const menu_data = [
     {
       id: 3,
       has_dropdown: true,
-      title: "Pages",
+      title: "Page",
       link: "#",
       sub_menus: [
         { link: "/service", title: "Services" },
@@ -29,7 +29,7 @@ const menu_data = [
         { link: "/team", title: "Team" },
         { link: "/case-study", title: "Case Study" },
         { link: "/pricing", title: "Pricing Plan" },
-        { link: "/faq", title: "FAQ" },
+        { link: "/faq", title: "FAQ's" },
         { link: "/error", title: "Error" },
       ],
     },
