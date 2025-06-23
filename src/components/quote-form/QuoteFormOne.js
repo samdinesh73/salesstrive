@@ -1,6 +1,23 @@
 import React from 'react';
+import { useState} from 'react';
 
 const QuoteFormOne = () => {
+    const [form, setForm] = useState({ name: '', email: '', message: '' ,phone: ''});
+    
+      const handleChange = (e) => {
+        setForm({ ...form, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(form),
+        });
+        const data = await res.json();
+        alert(data.message);
+      };
     return (
         <>
             {/* quote form one start */}
@@ -32,19 +49,19 @@ const QuoteFormOne = () => {
                                 <div className="quote-form-one__content wow fadeInUp" data-wow-delay=".3s">
                                     <h2 className="quote-form-one__title">Get in touch</h2>
                                     <p className="mb-40">Projects case study environmental stewardship has impacted economical.</p>
-                                    <form action="#" className="contact-quote-form">
+                                    <form action="#" className="contact-quote-form" onSubmit={handleSubmit}>
                                         <div className="row">
                                             <div className="col-xl-6">
-                                                <input type="text" placeholder="Your name" />
+                                                <input name='name' type="text" placeholder="Your name" onChange={handleChange} />
                                             </div>
                                             <div className="col-xl-6">
-                                                <input type="text" placeholder="Your email" />
+                                                <input name='email' type="text" placeholder="Your email" onChange={handleChange}/>
                                             </div>
                                             <div className="col-xl-6">
-                                                <input type="text" placeholder="Your phone" />
+                                                <input name='phone' type="text" placeholder="Your phone" onChange={handleChange}/>
                                             </div>
                                             <div className="col-xl-6">
-                                                <input type="text" placeholder="Your subject" />
+                                                <input name='message' type="text" placeholder="Your subject" onChange={handleChange}/>
                                             </div>
                                             <div className="col-xl-12">
                                                 <textarea name="message" id="message" placeholder="Type your message..."></textarea>

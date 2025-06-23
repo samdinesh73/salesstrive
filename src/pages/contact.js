@@ -4,6 +4,7 @@ import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import QuoteFormOne from "../components/quote-form/QuoteFormOne";
 import ContactMap from "../components/contact/ContactMap";
 import FooterThree from "../common/footer/FooterThree";
+import Contactform from "@/components/contact/Contactform";
 
 export default function ContactPage() {
 	return (
@@ -15,6 +16,7 @@ export default function ContactPage() {
                 currentPage="Contact Us" 
             />
 			<QuoteFormOne />
+			{/* <Contactform/> */}
 			<ContactMap />
 			<FooterThree />
 		</>

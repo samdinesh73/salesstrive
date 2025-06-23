@@ -1,26 +1,26 @@
 const menu_data = [
     {
       id: 1,
-      has_dropdown: true,
+      has_dropdown: false,
       title: "Home",
       link: "/",
       sub_menus: [
-        { link: "/", title: "Home One" },
-        { link: "/home-two", title: "Home Two" },
-        { link: "/home-three", title: "Home Three" },
-        { link: "/home-four", title: "Home Four" },
+        // { link: "/", title: "Home One" },
+        // { link: "/home-two", title: "Home Two" },
+        // { link: "/home-three", title: "Home Three" },
+        // { link: "/home-four", title: "Home Four" },
       ],
     },
     {
       id: 2,
       has_dropdown: false,
-      title: "About Us",
+      // title: "About Us",
       link: "/about",
     },
     {
       id: 3,
-      has_dropdown: true,
-      title: "Page",
+      has_dropdown: false,
+      // title: "Page",
       link: "#",
       sub_menus: [
         { link: "/service", title: "Services" },
@@ -36,8 +36,8 @@ const menu_data = [
     {
       id: 4,
       mega_menu: false,
-      has_dropdown: true,
-      title: "Blog",
+      has_dropdown: false,
+      // title: "Blog",
       link: "#",
       sub_menus: [
         { link: "/blog", title: "Blog" },

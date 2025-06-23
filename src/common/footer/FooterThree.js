@@ -30,7 +30,7 @@ const FooterThree = () => {
                                         <div className="footer-widget__column footer-widget__about">
                                             <div className="footer-widget__about-logo">
                                                 <Link href="/">
-                                                    <img src="/assets/img/logo/logo-white.png" alt="Logo" />
+                                                    <img src="/assets/img/logo/logo.png" alt="Logo" />
                                                 </Link>
                                             </div>
                                             <p className="footer-widget__about-text">Morbi pharetra, eros sed euismod pellentesque, nulla risus lobortis purus, quis maximus.</p>
@@ -69,7 +69,7 @@ const FooterThree = () => {
                                 <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
                                     <div className="footer__widget footer-col-4 mb-30">
                                         <h3 className="footer-widget__title">Subscribe Newsletter</h3>
-                                        <div className="footer-subscriber-form">
+                                        {/* <div className="footer-subscriber-form">
                                             <form action="#">
                                                 <input type="text" placeholder="Enter your email" />
                                                 <button className=""><i className="fa-light fa-arrow-right"></i></button>
@@ -78,7 +78,7 @@ const FooterThree = () => {
                                         <div className="subscriber-agreement">
                                             <input type="checkbox" name="agree" id="agree" />
                                             <p>I agree to the <a href="#">Privacy Policy</a>.</p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ const FooterThree = () => {
                             <div className="row">
                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div className="copyright">
-                                        <p>© 2023 SEOQ All Rights Reserved.</p>
+                                        <p>© 2025 Salesstrive All Rights Reserved.</p>
                                     </div>
                                 </div>
                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">

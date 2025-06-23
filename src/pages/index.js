@@ -21,6 +21,7 @@ import ServiceThree from "@/components/service/ServiceThree";
 import ServiceFour from "@/components/service/ServiceFour";
 import ServiceFive from "@/components/service/ServiceFive";
 import ServiceOne from "@/components/service/ServiceOne";
+import FooterThree from "@/common/footer/FooterThree";
 
 export default function Home() {
 	return (
@@ -46,7 +47,8 @@ export default function Home() {
 			<BlogTwo />
 			{/* <BlogThree /> */}
 			<CtaOne />
-			<FooterOne />
+			{/* <FooterOne /> */}
+			<FooterThree/>
 		</>
 	);
 }
