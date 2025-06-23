@@ -68,7 +68,7 @@ const FooterThree = () => {
                                 </div>
                                 <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
                                     <div className="footer__widget footer-col-4 mb-30">
-                                        <h3 className="footer-widget__title">Subscribe Newsletter</h3>
+                                        <h3 className="footer-widget__title">Contact</h3>
                                         {/* <div className="footer-subscriber-form">
                                             <form action="#">
                                                 <input type="text" placeholder="Enter your email" />
