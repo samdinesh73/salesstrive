@@ -10,6 +10,7 @@ const BrandOne = () => {
                 loop: true,
                 nav: false,
                 autoplay: true,
+                autoplayTimeout: 1500,
                 responsive: {
                     0: {
                         items: 1

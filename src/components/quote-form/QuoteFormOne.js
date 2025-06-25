@@ -2,7 +2,7 @@ import React from 'react';
 import { useState} from 'react';
 
 const QuoteFormOne = () => {
-    const [form, setForm] = useState({ name: '', email: '', message: '' ,phone: ''});
+    const [form, setForm] = useState({ name: '', email: '', message: '' ,phone: '',subject : ''});
     
       const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -61,10 +61,10 @@ const QuoteFormOne = () => {
                                                 <input name='phone' type="text" placeholder="Your phone" onChange={handleChange}/>
                                             </div>
                                             <div className="col-xl-6">
-                                                <input name='message' type="text" placeholder="Your subject" onChange={handleChange}/>
+                                                <input name='subject' type="text" placeholder="Your subject" onChange={handleChange}/>
                                             </div>
                                             <div className="col-xl-12">
-                                                <textarea name="message" id="message" placeholder="Type your message..."></textarea>
+                                                <textarea name="message" id="message" placeholder="Type your message..." onChange={handleChange}></textarea>
                                                 <button type="submit" className="contact-btn rr-bounce-up">Send Message</button>
                                             </div>
                                         </div>

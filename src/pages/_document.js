@@ -19,6 +19,7 @@ export default function Document() {
                 <link rel="stylesheet" href="/assets/css/seoq-core.css" />
                 <link rel="stylesheet" href="/assets/css/seoq-unit.css" />
                 <link rel="stylesheet" href="/assets/css/seoq-updater.css" />
+                <link rel="stylesheet" href="/assets/css/custom.css" />
             </Head>
             <body>
                 <Main />

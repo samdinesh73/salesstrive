@@ -36,37 +36,42 @@ export const BlogOneData = [
 export const BlogTwoData = [
     {
         id: 1,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/1.jpg",
         alt: "Blog Post",
-        date: "March 25,2023",
-        heading: "Local SEO Checklist Steps Optimize Your Business Local For Searches.",
+        date: "March 15,2025",
+        heading: "Local SEO Checklist Step Optimize Your Business Local For Searches.",
         link_text: "Learn More",
         link: "/blog-details",
     },
     {
         id: 2,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/2.jpg",
         alt: "Blog Post",
-        date: "March 25,2023",
+        date: "March 20,2025",
         heading: "The Role of SEO in Brand Building and Online Business Reputation.",
         link_text: "Learn More",
         link: "/blog-details",
     },
     {
         id: 3,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/3.jpg",
         alt: "Blog Post",
-        date: "March 25,2023",
+        date: "March 25,2025",
         heading: "SEO Content Marketing and Creating Valuable Content Searchable.",
         link_text: "Learn More",
         link: "/blog-details",
     },
+    
 ];
 
 // Blog Three
 export const BlogThreeData = [
     {
         id: 1,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/1.jpg",
         alt: "Blog Post",
         heading: "The Importance of Mobile SEO Optimizing for On-The-Go Users.",
@@ -78,6 +83,7 @@ export const BlogThreeData = [
     },
     {
         id: 2,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/2.jpg",
         alt: "Blog Post",
         heading: "Which Marketing Strategy Delivers Better Results?",
@@ -89,6 +95,7 @@ export const BlogThreeData = [
     },
     {
         id: 3,
+        slug:"seo-strategy-trends-2025",
         image: "assets/img/blog/3.jpg",
         alt: "Blog Post",
         heading: "Measuring SEO Success Key Metrics for Tracking Your Performance.",

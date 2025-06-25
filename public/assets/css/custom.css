@@ -1,0 +1,34 @@
+
+.herovideo{height: 90vh; overflow: hidden;object-fit: cover;object-position: center;}
+video::-webkit-media-controls {
+  display: none !important;
+}
+/* arrow background */
+.hero-one__animation-2{margin-bottom: 100px;}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .herovideo{height: 90vh !important; overflow: hidden;object-fit: cover;object-position: center;}
+}
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .herovideo{height: auto !important;overflow: hidden;object-fit: cover;object-position: center;}
+  .about-one .about-one__img .about-one__img2 {right: -100px;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .herovideo{height: auto !important;overflow: hidden;object-fit: cover;object-position: center;}
+  
+  .about-one .about-one__img .about-one__img2 {right: -70px;}
+  .about-one .about-one__img .about-one__img2 img {width: 70%;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .herovideo{height: auto !important;overflow: hidden;object-fit: cover;object-position: center;}
+  .about-one .about-one__img .about-one__img2 {right: -100px;}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .herovideo{height: auto !important;overflow: hidden;object-fit: cover;object-position: center;}
+}
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 575px) {
+  .herovideo{height: auto;}
+}

@@ -13,12 +13,19 @@ const menu_data = [
     },
     {
       id: 2,
+      mega_menu: false,
+      has_dropdown: false,
+      title: "Contact",
+      link: "/contact",
+    },
+    {
+      id: 3,
       has_dropdown: false,
       // title: "About Us",
       link: "/about",
     },
     {
-      id: 3,
+      id: 4,
       has_dropdown: false,
       // title: "Page",
       link: "#",
@@ -34,7 +41,7 @@ const menu_data = [
       ],
     },
     {
-      id: 4,
+      id: 5,
       mega_menu: false,
       has_dropdown: false,
       // title: "Blog",
@@ -44,12 +51,6 @@ const menu_data = [
         { link: "/blog-details", title: "Blog Details" },
       ],
     },
-    {
-      id: 5,
-      mega_menu: false,
-      has_dropdown: false,
-      title: "Contact",
-      link: "/contact",
-    },
+    
   ];
   export default menu_data;

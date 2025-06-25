@@ -55,7 +55,9 @@ const AboutTwo = () => {
                                             </div>
                                             <div className="text">
                                                 <h4>Consulting</h4>
-                                                <p>Nam blandit tellus at pulvinar ultrices sed justo sapien, sodales.</p>
+                                                <p>We offer expert guidance tailored to your brand’s digital goals. From strategic planning to execution, our consulting services help you make smarter decisions and stay ahead in the competitive market.
+
+</p>
                                             </div>
                                         </div>
                                         <div className="about-two__info-box mb-20 wow fadeInUp" data-wow-delay=".5s">
@@ -64,7 +66,7 @@ const AboutTwo = () => {
                                             </div>
                                             <div className="text">
                                                 <h4>Production</h4>
-                                                <p>Nam blandit tellus at pulvinar ultrices sed justo sapien, sodales.</p>
+                                                <p>Our production team ensures your brand communicates clearly and creatively.</p>
                                             </div>
                                         </div>
                                         <div className="about-two__info-box wow fadeInUp" data-wow-delay=".7s">
@@ -73,7 +75,7 @@ const AboutTwo = () => {
                                             </div>
                                             <div className="text">
                                                 <h4>24/7 support</h4>
-                                                <p>Nam blandit tellus at pulvinar ultrices sed justo sapien, sodales.</p>
+                                                <p>We’re with you every step of the way. Our dedicated support team is available around the clock to resolve issues, optimize campaigns, and keep your business running without interruption.</p>
                                             </div>
                                         </div>
                                     </div>

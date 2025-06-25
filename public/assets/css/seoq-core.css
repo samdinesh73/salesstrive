@@ -218,6 +218,8 @@
     transform: translateY(0px);
   }
 }
+
+
 body {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -253,7 +255,7 @@ img {
 }
 
 .custom-container-1 {
-  max-width: 1290px;
+  max-width: 1392px;
 }
 
 .bg-property {

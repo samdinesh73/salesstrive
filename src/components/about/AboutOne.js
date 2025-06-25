@@ -16,28 +16,28 @@ const AboutOne = () => {
                                             <button className="nav-link" id="pills-digital-tab" data-bs-toggle="pill" data-bs-target="#pills-digital" type="button" role="tab" aria-controls="pills-digital" aria-selected="false">
                                                 <img src="/assets/img/icon/status-up.svg" className="no-active" alt="icon" />
                                                 <img src="/assets/img/icon/status-up-white.svg" className="active-tab-icon" alt="icon" />
-                                                <span>Digital Marketing</span>
+                                                <span>Global Seller <br/>Account Management</span>
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
                                             <button className="nav-link active" id="pills-search-tab" data-bs-toggle="pill" data-bs-target="#pills-search" type="button" role="tab" aria-controls="pills-search" aria-selected="true">
                                                 <img src="/assets/img/icon/globe.svg" className="no-active" alt="icon" />
                                                 <img src="/assets/img/icon/globe-white.svg" className="active-tab-icon" alt="icon" />
-                                                <span>Search Engine</span>
+                                                <span>Social Media <br></br> Marketing</span>
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
                                             <button className="nav-link" id="pills-analytics-tab" data-bs-toggle="pill" data-bs-target="#pills-analytics" type="button" role="tab" aria-controls="pills-analytics" aria-selected="false">
                                                 <img src="/assets/img/icon/list.svg" className="no-active" alt="icon" />
                                                 <img src="/assets/img/icon/list-white.svg" className="active-tab-icon" alt="icon" />
-                                                <span>Analytics</span>
+                                                <span>Digital Marketing</span>
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
                                             <button className="nav-link" id="pills-social-tab" data-bs-toggle="pill" data-bs-target="#pills-social" type="button" role="tab" aria-controls="pills-social" aria-selected="false">
                                                 <img src="/assets/img/icon/like-tag.svg" className="no-active" alt="icon" />
                                                 <img src="/assets/img/icon/like-tag-white.svg" className="active-tab-icon" alt="icon" />
-                                                <span>Social Media</span>
+                                                <span>E-com Account<br></br>Reconcilation</span>
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">

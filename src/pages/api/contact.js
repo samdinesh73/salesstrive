@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    const { name, email, message,phone } = req.body;
+    const { name, email, message,phone ,subject} = req.body;
 
     const transporter = nodemailer.createTransport({
       service: 'gmail', // or your SMTP provider
@@ -16,8 +16,21 @@ export default async function handler(req, res) {
       await transporter.sendMail({
         from: email,
         to: process.env.EMAIL_TO,
-        subject: `Contact from ${name}`,
-        text: message +`Contact`+phone,
+        subject: `New Contact Form Submission from ${name} ,Regarding : ${subject}`,
+        text: `
+You have received a new message from your website contact form:
+
+Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Subject: ${subject}
+
+
+Message:
+${message}
+
+-- End of message --
+  `, 
       });
       res.status(200).json({ message: 'Email sent successfully' });
     } catch (error) {

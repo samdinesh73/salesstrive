@@ -26,21 +26,21 @@ const AboutThree = () => {
                 <div className="page-header__bg" data-background="assets/img/about/about-bg-1.png"></div>
                 <div className="about-one__animation_3"></div>
                 <div className="container">
-                    <div className="row align-items-end">
+                    <div className="row ">
                         <div className="col-xxl-6 col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                             <div className="about-one__img">
-                                <img src="/assets/img/about/about-img-1.jpg" alt="about img" />
-                                <div className="about-one__img2">
-                                    <img src="/assets/img/about/about-img-2.jpg" alt="about img" />
-                                </div>
+                                <img src="/assets/img/about/aboutus1.png" alt="about img" />
+                                {/* <div className="about-one__img2">
+                                    <img src="/assets/img/about/aboutus.png" alt="about img" />
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6">
                             <div className="about-one__right wow fadeInUp" data-wow-delay=".5s">
                                 <div className="about-one__right-content">
                                     <span>About Us</span>
-                                    <h2 className="section-title__one-title">Empowering Brands Online Our SEO Legacy and Commitment.</h2>
-                                    <p>Etiam in elit non sem mollis luctus. Suspendisse egestas rutrum massa, accumsan pretium tortor Nullam enim ex, facilisis sit amet finibus vitae, volutpat eget lacus.</p>
+                                    <h2 className="section-title__one-title">Empowering Brands with Digital Marketing and E-commerce Excellence</h2>
+                                    <p>At Salestrive, we are a forward-thinking digital marketing agency and e-commerce account management partner founded in 2025. Our mission is to help businesses grow online by combining creative strategies, data-driven insights, and platform-specific expertise across marketplaces like Amazon, Myntra, Ajio, Flipkart, and more.</p>
                                 </div>
                                 <div className="about-one__counter">
                                     <div className="row">
@@ -68,6 +68,7 @@ const AboutThree = () => {
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

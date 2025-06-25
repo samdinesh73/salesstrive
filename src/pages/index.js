@@ -22,6 +22,11 @@ import ServiceFour from "@/components/service/ServiceFour";
 import ServiceFive from "@/components/service/ServiceFive";
 import ServiceOne from "@/components/service/ServiceOne";
 import FooterThree from "@/common/footer/FooterThree";
+import Herovideo from "@/components/hero/Herovideo";
+import Specialize from "@/components/mine/Specialize";
+import BrandSlider from "@/components/brand/BrandSlider";
+import BlogTest from "@/components/blog/BlogTest";
+import StackedCardOne from "@/components/stacked-card/StackedCardOne";
 
 export default function Home() {
 	return (
@@ -30,21 +35,27 @@ export default function Home() {
 			<HeaderOne />
 			{/* <HeaderTwo></HeaderTwo> */}
 			{/* <HeaderFour></HeaderFour> */}
-			
+			<Herovideo/>
       		<HeroOne />
 			<AboutOne />
-			<ServiceOne/>
+			
 			
 			
 			
 			<AboutThree/>
+			<ServiceOne/>
+			<StackedCardOne/>
+			{/* <Specialize/> */}
 			<BrandOne />
+		{/* <BrandSlider/> */}
+		
 			
 			<FaqTwo />
-			<FaqThree />
+			{/* <FaqThree />x */}
 			{/* <IntegrationsOne /> */}
 			<AboutTwo/>
 			<BlogTwo />
+			{/* <BlogTest/> */}
 			{/* <BlogThree /> */}
 			<CtaOne />
 			{/* <FooterOne /> */}

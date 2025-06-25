@@ -20,7 +20,7 @@ const BlogThree = () => {
                                     <div className="blog-three__img">
                                         <img src={item.image} alt={item.alt}  />
                                         <div className="icon">
-                                            <Link href={item.link}><i className="fa-regular fa-arrow-up-right"></i></Link>
+                                            <Link href={`/blogs/${item.slug}`}><i className="fa-regular fa-arrow-up-right"></i></Link>
                                         </div>
                                     </div>
                                     <div className="blog-three__content">
@@ -32,7 +32,7 @@ const BlogThree = () => {
                                                 <li><Link href={item.category_link}>{item.category_text}</Link></li>
                                             </ul>
                                         </div>
-                                        <h2 className="blog-three_title"><Link href={item.link}>{item.heading}</Link></h2>
+                                        <h2 className="blog-three_title"><Link href={`/blogs/${item.slug}`}>{item.heading}</Link></h2>
                                     </div>
                                 </div>
                             </div>

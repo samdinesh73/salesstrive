@@ -9,16 +9,16 @@ const HeroOne = () => {
             <div className="hero-one" style={{backgroundImage: `url(${BackgroundOne.src})`}}>
                 <div className="hero-one__wrapper">
                     <div className="hero-one__animation-1">
-                        <img src="/assets/img/hero/rocket.png" alt="rocket img" />
+                        <img src="/assets/img/hero/rocket.png" alt="rockets img" />
                     </div>
                     <div className="hero-one__animation-2">
-                        <img src="/assets/img/hero/ss-removebg-preview.png" alt="rocket img" />
+                        <img src="/assets/img/hero/ranking1.png" alt="rocket img" />
                     </div>
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xxl-12 col-xl-7 col-lg-12 col-md-12 col-sm-12">
                                 <div className="hero-one__content wow fadeInLeft" data-wow-delay=".3s">
-                                    <h2>Sell Worldwide 
+                                    <h2>Sell Worldwide with
                                         <br /> <span className="hero-highlighter-1"> 
                                        Salesstrive
                                         <svg xmlns="http://www.w3.org/2000/svg" width="323" height="19" viewBox="0 0 323 19" fill="none">

@@ -33,11 +33,14 @@ const FooterThree = () => {
                                                     <img src="/assets/img/logo/logo.png" alt="Logo" />
                                                 </Link>
                                             </div>
-                                            <p className="footer-widget__about-text">Morbi pharetra, eros sed euismod pellentesque, nulla risus lobortis purus, quis maximus.</p>
+                                            <p className="footer-widget__about-text"></p>
                                             <div className="social-hvr">
-                                                <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                                <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                                <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://www.instagram.com/Seller.rocket/"><i className="fa-brands fa-instagram"></i></a>
+                                                <a href="https://www.facebook.com/Sellerrocket/"><i className="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://in.linkedin.com/company/seller-rocket"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://wa.me/+919944331949"><i className="fa-brands fa-whatsapp"></i></a>
+                                                {/* <a href="https://wa.me/+919944331949"><i className="fa-brands fa-whatsapp"></i></a> */}
+                                                {/* <a href="https://x.com/seller_rocket"><i className="fa-brands fa-twitter"></i></a> */}
                                             </div>
                                         </div>
                                     </div>
@@ -46,11 +49,11 @@ const FooterThree = () => {
                                     <div className="footer__widget mb-30">
                                         <h3 className="footer-widget__title">Services</h3>
                                         <ul>
-                                            <li><Link href="/">SEO Marketing</Link></li>
+                                            {/* <li><Link href="/">SEO Marketing</Link></li>
                                             <li><Link href="/">SEO Services</Link></li>
                                             <li><Link href="/">Pay Per Click</Link></li>
                                             <li><Link href="/">Social Media</Link></li>
-                                            <li><Link href="/">SEO Audit</Link></li>
+                                            <li><Link href="/">SEO Audit</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -58,17 +61,23 @@ const FooterThree = () => {
                                     <div className="footer__widget mb-30">
                                         <h3 className="footer-widget__title">Community</h3>
                                         <ul>
-                                            <li><Link href="/">Our Product</Link></li>
+                                            {/* <li><Link href="/">Our Product</Link></li>
                                             <li><Link href="/">Documentation</Link></li>
                                             <li><Link href="/">Our Services</Link></li>
                                             <li><Link href="/">Company</Link></li>
-                                            <li><Link href="/">What We Do?</Link></li>
+                                            <li><Link href="/">What We Do?</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
                                     <div className="footer__widget footer-col-4 mb-30">
                                         <h3 className="footer-widget__title">Contact</h3>
+                                        <div className='text-white'>
+                                            <h6 className='text-white'>Head Office</h6>
+                                            <p className='text-white'> No. 146 ,1st Floor, 2nd Cross, Bhovi Colony, Near Om Shakthi Temple. Bommanahalli, Bangalore - 560068</p>
+                                            {/* <h6 className='text-white'>Corporate Office</h6>
+                                            <p className='text-white'>926, 2nd Floor, Parameshwari Complex, Next to Bank of Baroda, Thanjavur, Tamil Nadu- 613001</p> */}
+                                        </div>
                                         {/* <div className="footer-subscriber-form">
                                             <form action="#">
                                                 <input type="text" placeholder="Enter your email" />
