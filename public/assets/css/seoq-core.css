@@ -215,7 +215,7 @@
     transform: translateY(30px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(1px);
   }
 }
 
