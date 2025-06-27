@@ -38,6 +38,7 @@ export default function Document() {
                 <script src="/assets/js/swiper-bundle.min.js"></script>
                 <script src="/assets/js/wow.min.js"></script>
                 <script src="/assets/js/main.js"></script>
+                <script src="/assets/js/custom.js"></script>
             </body>
         </Html>
     )

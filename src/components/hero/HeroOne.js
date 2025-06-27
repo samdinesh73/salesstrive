@@ -1,12 +1,15 @@
 import React, { useEffect } from "react";
+
 import Link from "next/link";
 import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.png';
+import Consultationform from "../contact/Consultationform";
 
 const HeroOne = () => {
 
     return (
         <>
             <div className="hero-one" style={{backgroundImage: `url(${BackgroundOne.src})`}}>
+               <Consultationform/>
                 <div className="hero-one__wrapper">
                     <div className="hero-one__animation-1">
                         <img src="/assets/img/hero/rocket.png" alt="rockets img" />
@@ -32,19 +35,24 @@ const HeroOne = () => {
                                             </svg>
                                         </span></h2>
                                     <p>We help brands grow on Amazon, Myntra, Ajio & more with powerful strategies and <br></br>complete store management.</p>
-                                    <form action="#">
+                                    {/* <form action="#">
                                         <div className="hero__input">
                                             <i className="fa-regular fa-magnifying-glass"></i>
                                             <input type="text" placeholder="Analyze any website or app" />
                                             <button type="submit" className="hero-btn-1 rr-btn-style-1">Search</button>
                                         </div>
-                                    </form>
+                                    </form> */}
+                                    <div>
+                                       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#consultationModal">Get Free Consultation</button>
+
+                                        <img src="/assets/img/icon/bottom_curved_arrow.gif" className="arrowgif"></img>
+                                    </div>
                                     <div className="hero-popular-search">
                                         <span>Popular:</span>
                                         <ul>
                                             <li>
                                                 <a href="#">
-                                                    <img src="/assets/img/icon/google.svg" alt="google icon" /> Google.com
+                                                    <img src="/assets/img/icon/instagram.svg" alt="google icon" /> Instagram.com
                                                 </a>
                                             </li>
                                             <li>

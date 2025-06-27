@@ -27,8 +27,18 @@ import Specialize from "@/components/mine/Specialize";
 import BrandSlider from "@/components/brand/BrandSlider";
 import BlogTest from "@/components/blog/BlogTest";
 import StackedCardOne from "@/components/stacked-card/StackedCardOne";
+import HorizontalAccordion from "@/components/horizontal-accordion/HorizontalAccordion";
+import SkillsOne from "@/components/skills/SkillsOne";
+import TeamOne from "@/components/team/TeamOne";
+import Lenis from '@studio-freight/lenis';
+import CtaTwo from "@/components/cta/CtaTwo";
+
+
 
 export default function Home() {
+	
+	
+
 	return (
 		<>
 			<SEO pageTitle={"Home"} />
@@ -38,18 +48,20 @@ export default function Home() {
 			<Herovideo/>
       		<HeroOne />
 			<AboutOne />
-			
+		
 			
 			
 			
 			<AboutThree/>
 			<ServiceOne/>
+			{/* <TeamOne/> */}
 			<StackedCardOne/>
 			{/* <Specialize/> */}
 			<BrandOne />
 		{/* <BrandSlider/> */}
 		
-			
+			{/* <HorizontalAccordion/> */}
+			{/* <SkillsOne/> */}
 			<FaqTwo />
 			{/* <FaqThree />x */}
 			{/* <IntegrationsOne /> */}
@@ -58,6 +70,7 @@ export default function Home() {
 			{/* <BlogTest/> */}
 			{/* <BlogThree /> */}
 			<CtaOne />
+			{/* <CtaTwo/> */}
 			{/* <FooterOne /> */}
 			<FooterThree/>
 		</>
