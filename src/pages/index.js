@@ -32,6 +32,9 @@ import SkillsOne from "@/components/skills/SkillsOne";
 import TeamOne from "@/components/team/TeamOne";
 import Lenis from '@studio-freight/lenis';
 import CtaTwo from "@/components/cta/CtaTwo";
+import PortfolioOne from "@/components/portfolio/PortfolioOne";
+import CaseStudyOne from "@/components/case-study/CaseStudyOne";
+// import CaseStudyTwo from "@/components/case-study/CaseStudyTwo";
 
 
 
@@ -53,15 +56,18 @@ export default function Home() {
 			
 			
 			<AboutThree/>
+			<PortfolioOne/>
 			<ServiceOne/>
 			{/* <TeamOne/> */}
 			<StackedCardOne/>
 			{/* <Specialize/> */}
 			<BrandOne />
 		{/* <BrandSlider/> */}
-		
+			
 			{/* <HorizontalAccordion/> */}
-			{/* <SkillsOne/> */}
+			<SkillsOne/>
+			<CaseStudyOne/>
+			{/* <CaseStudyTwo/> */}
 			<FaqTwo />
 			{/* <FaqThree />x */}
 			{/* <IntegrationsOne /> */}

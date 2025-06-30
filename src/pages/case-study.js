@@ -13,13 +13,13 @@ export default function PricingPage() {
 			<SEO pageTitle={"Case Study"} />
 			<HeaderOne />
 			<Breadcrumb 
-                heading="Case Study"
-                currentPage="Case Study" 
+                heading="Projects"
+                currentPage="Projects" 
             />
 			<CaseStudyTwo />
 			<PortfolioOne />
 			<CaseStudyOne />
-			<ServiceFour />
+			{/* <ServiceFour /> */}
 			<FooterThree />
 		</>
 	);

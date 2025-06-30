@@ -34,7 +34,7 @@ const PortfolioOne = () => {
                 <div className="container">
                     <div className="row">
                         <div className="section-title__column-two mb-60 wow fadeInUp" data-wow-delay=".3s">
-                            <h2 className="section-title__two-title">Real-Life Case <br /> Studies That Inspire.</h2>
+                            <h2 className="section-title__two-title">Real-Life Projects <br /> </h2>
                             <div className="section-title__two-right">
                                 <div className="portfolio-menu mb-xl-60">
                                     <button className="active" data-filter="*">

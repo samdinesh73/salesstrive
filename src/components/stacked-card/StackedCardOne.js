@@ -25,9 +25,10 @@ const StackedCardOne = () => {
                                 <div className="stack-card__inner wow fadeInUp" data-wow-duration="600ms" data-background={item.image}>
                                     <div className="row">
                                         <div className="col-12 col-xl-8 col-xxl-7">
-                                            <div className="stack-card__inner-content">
-                                                <h2>{item.heading}</h2>
-                                                <Link href={item.link}>{item.link_text} <i className="fa-regular fa-arrow-up-right"></i></Link>
+                                            <div className="stack-card__inner-content ">
+                                                <h2 className='text-white'>{item.heading}</h2>
+                                                <p className='text-white'>{item.desc}</p>
+                                                <Link className='text-white border-1 border-white' href={item.link}>{item.link_text} <i className="fa-regular fa-arrow-up-right text-white"></i></Link>
                                             </div>
                                         </div>
                                     </div>

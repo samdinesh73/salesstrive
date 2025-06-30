@@ -5,7 +5,7 @@ const ServiceFour = () => {
     return (
         <>
             {/* service one start */}
-            <div className="service-one  pt-120 pb-120">
+            <div className="service-one   pb-120">
                 <div className="container">
                     <div className="row">
                         <div className="section-title__one text-center mb-50 wow fadeInUp" data-wow-delay=".3s">

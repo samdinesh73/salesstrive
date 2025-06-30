@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { CaseStudyTwoData } from '@/data/case-study';
 import Link from 'next/link';
 
-const CaseStudyOne = () => {
+const CaseStudyTwo = () => {
     useEffect(() => {
 
         // Testimonial Two
@@ -67,4 +67,4 @@ const CaseStudyOne = () => {
     )
 }
 
-export default CaseStudyOne;
+export default CaseStudyTwo;
