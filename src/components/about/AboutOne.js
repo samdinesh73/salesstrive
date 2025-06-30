@@ -12,7 +12,7 @@ const AboutOne = () => {
                             <div className="col-xxl-12">
                                 <div className="tabs-one">
                                     <ul className="nav nav-pills" id="pills-tab" role="tablist">
-                                        <li className="nav-item" role="presentation">
+                                        <li className="nav-item " role="presentation">
                                             <button className="nav-link active" id="pills-search-tab" data-bs-toggle="pill" data-bs-target="#pills-search" type="button" role="tab" aria-controls="pills-digital" aria-selected="false">
                                                 <img src="/assets/img/icon/status-up.svg" className="no-active" alt="icon" />
                                                 <img src="/assets/img/icon/status-up-white.svg" className="active-tab-icon" alt="icon" />
@@ -65,7 +65,8 @@ const AboutOne = () => {
                                         
                                     </ul>
                                     <div className="tab-content" id="pills-tabContent">
-                                        <div className="tab-pane fade " id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab" tabindex="0">
+                                        <div className="tab-pane active opacity-1" id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab" tabindex="0">
+                                        
                                             <div className="about-three__single">
                                                 <div className="about-three__animation-1">
                                                     <img src="/assets/img/shape/12.svg" alt="shape icon" />
@@ -78,7 +79,7 @@ const AboutOne = () => {
                                                 </div>
                                                 <div className="row">
                                                     <div className="col-xxl-6 col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                                                        <div className="about-three__single-content">
+                                                        <div className="about-three__single-content ">
                                                             <h2>Expand Your Brand Beyond Borders.</h2>
                                                             <p>Take your e-commerce business global with expert account handling, data-driven insights, and seamless cross-border compliance.</p>
                                                             <div className="list">
