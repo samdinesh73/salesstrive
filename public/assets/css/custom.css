@@ -11,6 +11,69 @@ video::-webkit-media-controls {
 .arrowgif{height: 50px;}
 .bg-theme{background-color: #0d6efd;color: #fff;}
 
+.glossy-bg {
+  position: relative;
+  background: linear-gradient(135deg, #0C182E, #101d33);
+  border-radius: 1rem;
+  padding: 2rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.4),
+    0 0 60px rgba(255, 255, 255, 0.05) inset;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  z-index: 1;
+}
+
+.glossy-bg::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: -30%;
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.1),
+    transparent 70%
+  );
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+  transform: rotate(20deg);
+}
+
+.glossy-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.39) 0%,
+    rgba(192, 192, 192, 0.582) 60%,
+    rgba(189, 189, 189, 0.479) 100%
+  );
+  opacity: 0.2;
+  animation: shine 6s infinite linear;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(15deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(15deg);
+  }
+}
+
+
+
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
   .herovideo{height: 90vh !important; overflow: hidden;object-fit: cover;object-position: center;}
 }

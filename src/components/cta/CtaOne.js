@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import FooterContact from '../contact/FooterContact';
 
 const CtaOne = () => {
     return (
@@ -35,12 +36,15 @@ const CtaOne = () => {
                                 <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 text-center">
                                     <div className="cta-main__img">
                                         <img src="/assets/img/cta/cta-1-1.png" alt="cta img" />
+                                        
                                     </div>
+                                    
                                 </div>
                                 <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
                                     <h2>Be the First to Know <br /> Join Us for All Updates.</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing commodo imperdiet.</p>
+                                    <p>Get free Consultation</p>
                                     <div className="cta-one__wrapper-form">
+                                       
                                         {/* <form action="#">
                                             <input type="text" placeholder="Enter your mail here....." />
                                             <button type="submit" className="cta-one__btn rr-btn-style-1">Sign Up</button>
@@ -50,7 +54,9 @@ const CtaOne = () => {
 
                                         <img src="/assets/img/icon/bottom_curved_arrow.gif" className="arrowgif"></img>
                                     </div>
+                                    
                                     </div>
+                                  
                                 </div>
                             </div>
                         </div>

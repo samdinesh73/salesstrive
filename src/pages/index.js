@@ -34,6 +34,7 @@ import Lenis from '@studio-freight/lenis';
 import CtaTwo from "@/components/cta/CtaTwo";
 import PortfolioOne from "@/components/portfolio/PortfolioOne";
 import CaseStudyOne from "@/components/case-study/CaseStudyOne";
+import FooterContact from "@/components/contact/FooterContact";
 // import CaseStudyTwo from "@/components/case-study/CaseStudyTwo";
 
 
@@ -75,9 +76,11 @@ export default function Home() {
 			<BlogTwo />
 			{/* <BlogTest/> */}
 			{/* <BlogThree /> */}
-			<CtaOne />
+			
 			{/* <CtaTwo/> */}
 			{/* <FooterOne /> */}
+			<FooterContact/>
+			{/* <CtaOne /> */}
 			<FooterThree/>
 		</>
 	);

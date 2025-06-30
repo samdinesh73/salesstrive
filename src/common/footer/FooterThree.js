@@ -74,7 +74,9 @@ const FooterThree = () => {
                                         <h3 className="footer-widget__title">Contact</h3>
                                         <div className='text-white'>
                                             <h6 className='text-white'>Head Office</h6>
-                                            <p className='text-white'> Seller Rocket Online Services Pvt, Ltd. No 892, AR Naidu Chambers, 3rd Floor, 7th A Main Road, 1st Block, Near Wipro Signal, Koramangala, Bengaluru . 560034</p>
+                                            <p className='text-white'> Sales strive Online Services Pvt, Ltd. No 892, AR Naidu Chambers, 3rd Floor, 7th A Main Road, 1st Block, Near Wipro Signal, Koramangala, Bengaluru . 560034</p>
+                                            <h6 className='text-white'>Phone : +91 98898 89331 </h6>
+                                            <p className='text-white'> </p>
                                             {/* <h6 className='text-white'>Corporate Office</h6>
                                             <p className='text-white'>926, 2nd Floor, Parameshwari Complex, Next to Bank of Baroda, Thanjavur, Tamil Nadu- 613001</p> */}
                                         </div>
