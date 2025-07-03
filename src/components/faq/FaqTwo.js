@@ -26,19 +26,19 @@ const FaqTwo = () => {
                                 <img src="/assets/img/shape/arrow-circle-line-2.png" alt="shape" />
                             </div>
                             <div className="fac-two__content">
-                                <h2 className="section-title__one-title">Recover From Google <br /> Penalties with SEO.</h2>
+                                <h2 className="section-title__one-title">Maximize eCommerce Growth with <br /> Expert Account Management.</h2>
                                 <div className="faq-two__faq">
                                     <div className="accordion" id="accordionExample">
                                         <Accordion defaultActiveKey="1">
                                             <Accordion.Item eventKey="0">
-                                                <Accordion.Header>Competitors Analysis</Accordion.Header>
+                                                <Accordion.Header>Marketplace Performance Tracking</Accordion.Header>
                                                 <Accordion.Body>
                                                     <div className="accrodion-content">
                                                         <div className="text">
                                                             <div className="list">
                                                                 <ul>
-                                                                    <li><a href="#">Cohabiter elemental simple <i className="fa-regular fa-arrow-up-right"></i></a></li>
-                                                                    <li><a href="#">Phaseolus nulls ellipt <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Amazon vs Flipkart: Real-Time Sales Insight <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Ajio Ad Spend vs ROI Analysis <i className="fa-regular fa-arrow-up-right"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -52,8 +52,8 @@ const FaqTwo = () => {
                                                         <div className="text">
                                                             <div className="list">
                                                                 <ul>
-                                                                    <li><a href="#">Cohabiter elemental simple <i className="fa-regular fa-arrow-up-right"></i></a></li>
-                                                                    <li><a href="#">Phaseolus nulls ellipt <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Product Listing Optimization <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Search Term Ranking Strategy <i className="fa-regular fa-arrow-up-right"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -67,8 +67,8 @@ const FaqTwo = () => {
                                                         <div className="text">
                                                             <div className="list">
                                                                 <ul>
-                                                                    <li><a href="#">Cohabiter elemental simple <i className="fa-regular fa-arrow-up-right"></i></a></li>
-                                                                    <li><a href="#">Phaseolus nulls ellipt <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">A+ Content & Brand Store Design<i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Marketplace-Specific Catalog Segmentation<i className="fa-regular fa-arrow-up-right"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -82,8 +82,8 @@ const FaqTwo = () => {
                                                         <div className="text">
                                                             <div className="list">
                                                                 <ul>
-                                                                    <li><a href="#">Cohabiter elemental simple <i className="fa-regular fa-arrow-up-right"></i></a></li>
-                                                                    <li><a href="#">Phaseolus nulls ellipt <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Inventory & Category Performance <i className="fa-regular fa-arrow-up-right"></i></a></li>
+                                                                    <li><a href="#">Daily/Weekly Marketplace Dashboards <i className="fa-regular fa-arrow-up-right"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>

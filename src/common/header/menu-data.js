@@ -21,7 +21,7 @@ const menu_data = [
     {
       id: 3,
       has_dropdown: false,
-      // title: "About Us",
+      title: "About Us",
       link: "/about",
     },
     {

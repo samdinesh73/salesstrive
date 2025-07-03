@@ -5,6 +5,10 @@ import SkillsOne from "../components/skills/SkillsOne";
 import TestimonialSix from "../components/testimonial/TestimonialSix";
 import IntegrationsOne from "../components/integrations/IntegrationsOne";
 import FooterThree from "../common/footer/FooterThree";
+import TestimonialOne from "@/components/testimonial/TestimonialOne";
+import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
+import TestimonialThree from "@/components/testimonial/TestimonialThree";
+import TestimonialFour from "@/components/testimonial/TestimonialFour";
 
 export default function AboutPage() {
 	return (
@@ -13,7 +17,12 @@ export default function AboutPage() {
 			<HeaderOne />
 			<AboutThree />
 			<SkillsOne />
-			<TestimonialSix />
+			<TestimonialOne/>
+			<TestimonialTwo/>
+			<TestimonialThree/>
+			{/* <TestimonialFour/> */}
+			{/* <TestimonialSix/> */}
+			{/* <TestimonialSix /> */}
 			<IntegrationsOne />
 			<FooterThree />
 		</>

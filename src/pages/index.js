@@ -57,6 +57,7 @@ export default function Home() {
 			
 			
 			<AboutThree/>
+			<FaqTwo />
 			<PortfolioOne/>
 			<ServiceOne/>
 			{/* <TeamOne/> */}
@@ -66,10 +67,10 @@ export default function Home() {
 		{/* <BrandSlider/> */}
 			
 			{/* <HorizontalAccordion/> */}
-			<SkillsOne/>
+			{/* <SkillsOne/> */}
 			<CaseStudyOne/>
 			{/* <CaseStudyTwo/> */}
-			<FaqTwo />
+			
 			{/* <FaqThree />x */}
 			{/* <IntegrationsOne /> */}
 			<AboutTwo/>
