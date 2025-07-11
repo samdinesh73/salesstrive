@@ -35,16 +35,20 @@ import CtaTwo from "@/components/cta/CtaTwo";
 import PortfolioOne from "@/components/portfolio/PortfolioOne";
 import CaseStudyOne from "@/components/case-study/CaseStudyOne";
 import FooterContact from "@/components/contact/FooterContact";
+import QuoteFormOne from "@/components/quote-form/QuoteFormOne";
+import QuoteFormTwo from "@/components/quote-form/QuoteFormTwo";
 // import CaseStudyTwo from "@/components/case-study/CaseStudyTwo";
+import { useLenisScroll } from "@/hooks/useLenisScroll";
 
 
 
 export default function Home() {
-	
+	// useLenisScroll();
 	
 
 	return (
 		<>
+		
 			<SEO pageTitle={"Home"} />
 			<HeaderOne />
 			{/* <HeaderTwo></HeaderTwo> */}
@@ -83,6 +87,7 @@ export default function Home() {
 			<FooterContact/>
 			{/* <CtaOne /> */}
 			<FooterThree/>
+			
 		</>
 	);
 }

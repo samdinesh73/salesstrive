@@ -36,21 +36,18 @@ const TestimonialTwo = () => {
                                     <img src="/assets/img/testimonial/quote-icon.svg" alt="quote icon" />
                                 </div>
                                 <div className="testimonial-two__active owl-carousel">
-                                    <div data-dot="<img src='assets/img/testimonial/testimonial-2-1.png' />" className="testimonial-two__single">
-                                        <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet
-                                            lacinia est, vitae tristique metus tempor nibh ultricies.”</p>
+                                    <div data-dot="<img src='assets/img/testimonial/testimonial-1-3-1.png' />" className="testimonial-two__single">
+                                        <p>“Working with SalesStrive was one of the best decisions we made. They completely revamped our online strategy, and within weeks, we saw a sharp increase in website traffic and customer engagement. Their creative approach and data-driven campaigns helped our brand truly stand out.”</p>
                                         <h4>Indigo Violet</h4>
                                         <span>Director, Client Experience</span>
                                     </div>
-                                    <div data-dot="<img src='assets/img/testimonial/testimonial-2-2.png' />" className="testimonial-two__single">
-                                        <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet
-                                            lacinia est, vitae tristique metus tempor nibh ultricies.”</p>
+                                    <div data-dot="<img src='assets/img/testimonial/testimonial-1-2-1.png' />" className="testimonial-two__single">
+                                        <p>“SalesStrive didn’t just manage our ads — they took ownership of our entire growth journey. From SEO to Instagram reels, their team consistently delivered measurable results. We went from struggling with conversions to scaling our sales month-on-month. Highly recommended for fast-moving e-commerce brands”</p>
                                         <h4>Michael Walker</h4>
                                         <span>Director, Client Experience</span>
                                     </div>
-                                    <div data-dot="<img src='assets/img/testimonial/testimonial-2-3.png' />" className="testimonial-two__single">
-                                        <p>“Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet
-                                            lacinia est, vitae tristique metus tempor nibh ultricies.”</p>
+                                    <div data-dot="<img src='assets/img/testimonial/testimonial-1-4-1.png' />" className="testimonial-two__single">
+                                        <p>“The SalesStrive team brought clarity and structure to our digital marketing. Their brand storytelling, influencer collaborations, and strategic ad targeting helped us connect with health-conscious audiences across India. They truly understand how to turn clicks into loyal customers.”</p>
                                         <h4>David Anderson</h4>
                                         <span>Director, Client Experience</span>
                                     </div>

@@ -1,7 +1,5 @@
 
-html {
-  scroll-behavior: smooth;
-}
+  
 .herovideo{height: 90vh; overflow: hidden;object-fit: cover;object-position: center;}
 video::-webkit-media-controls {
   display: none !important;

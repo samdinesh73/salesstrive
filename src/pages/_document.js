@@ -39,6 +39,9 @@ export default function Document() {
                 <script src="/assets/js/wow.min.js"></script>
                 <script src="/assets/js/main.js"></script>
                 <script src="/assets/js/custom.js"></script>
+                <script src="/assets/js/smoothscroll.js"></script>
+                
+
             </body>
         </Html>
     )

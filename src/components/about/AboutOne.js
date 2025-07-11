@@ -90,7 +90,7 @@ const AboutOne = () => {
                                                                     <li>Drive revenue with targeted global campaigns</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/seller-account-management" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -125,7 +125,7 @@ const AboutOne = () => {
                                                                     <li>Build brand loyalty through interaction</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/social-media-marketing" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -160,7 +160,7 @@ const AboutOne = () => {
                                                                     <li>Full-funnel digital planning</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/digital-marketing" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -195,7 +195,7 @@ const AboutOne = () => {
                                                                     <li>Platform-wise detailed reporting</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/e-com-reconcilation" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -230,7 +230,7 @@ const AboutOne = () => {
                                                                     <li>Secure, scalable architecture</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/web-development" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -265,7 +265,7 @@ const AboutOne = () => {
                                                                     <li>Seller support and performance boosting</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/domestic-seller-account-management" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
@@ -300,7 +300,7 @@ const AboutOne = () => {
                                                                     <li>Nulla ac varius tellus, in laoreet libero</li>
                                                                 </ul>
                                                             </div>
-                                                            <Link href="/case-study" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+                                                            <Link href="/services/seller-account-management" className="about-three-btn rr-btn-style-1 mt-45">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">

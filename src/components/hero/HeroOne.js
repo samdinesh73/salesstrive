@@ -4,6 +4,8 @@ import Link from "next/link";
 import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.png';
 import Consultationform from "../contact/Consultationform";
 
+import SeoAuditResult from '../analyze/SeoAuditResult';
+import SeoAuditViewer from '../analyze/SeoAuditViewer';
 const HeroOne = () => {
 
     return (
@@ -44,7 +46,7 @@ const HeroOne = () => {
                                     </form> */}
                                     <div>
                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#consultationModal">Get Free Consultation</button>
-
+                                         
                                         <img src="/assets/img/icon/bottom_curved_arrow.gif" className="arrowgif"></img>
                                     </div>
                                     <div className="hero-popular-search">
