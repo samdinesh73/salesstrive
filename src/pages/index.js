@@ -48,7 +48,7 @@ export default function Home() {
 
 	return (
 		<>
-		
+		 
 			<SEO pageTitle={"Home"} />
 			<HeaderOne />
 			{/* <HeaderTwo></HeaderTwo> */}
@@ -87,6 +87,7 @@ export default function Home() {
 			<FooterContact/>
 			{/* <CtaOne /> */}
 			<FooterThree/>
+			
 			
 		</>
 	);

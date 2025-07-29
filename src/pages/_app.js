@@ -16,6 +16,12 @@ function MyApp({ Component, pageProps }) {
           <Head>
                 
             </Head>
+            {/* <div id="smooth-wrapper">
+         <div id="smooth-content">
+<Component {...pageProps} />
+
+         </div>
+         </div> */}
             <div className="page-wrapper">
               <Component {...pageProps} />
             </div>

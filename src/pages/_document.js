@@ -41,7 +41,21 @@ export default function Document() {
                 <script src="/assets/js/custom.js"></script>
                 <script src="/assets/js/smoothscroll.js"></script>
                 
-
+                
+   {/* <script src="assets copy/vendor/gsap/chroma.min.js"></script> */}
+  
+   {/* <script src="assets copy/vendor/gsap/ScrollSmoother.min.js"></script>
+   
+   <script src="assets copy/vendor/gsap/ScrollToPlugin.min.js"></script>
+  
+   <script src="assets copy/vendor/gsap/ScrollTrigger.min.js"></script>
+  
+   <script src="assets copy/vendor/gsap/gsap.min.js"></script>
+    
+    {/* <script src="assets copy/vendor/vanilla-tilt/tilt.jquery.js"></script> */}
+   
+   {/* <script src="assets copy/js/plugins.js"></script> */} 
+   
             </body>
         </Html>
     )
